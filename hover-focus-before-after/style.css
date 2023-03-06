@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+input[type='text']:focus{
+    outline: none;
+    border-color: red;
+    /* background-color: red; */
+}
+
+a:active{
+    color: yellow;
+}
+
+/* .link:visited{
+    color: brown;
+} */
+
+/* div:focus{
+    background-color: red;
+}
+
+ul li:focus{
+    background-color: green;
+} */
+
+
+ul li:hover{
+    background-color: green;
+    color: #fff;
+}
+
+button{
+    padding: 10px 20px;
+    font: bold 24px arial;
+    background-color: red;
+    color: yellow;
+}
+
+button:hover{
+    background-color: yellow;
+    color: red;
+    border-radius: 20px;
+}
+
+input[type='search']{
+    width: 100px;
+    /* transition: all 1s; */
+}
+
+input[type='search']:hover{
+    width: 400px;
+}
+
+p::selection{
+    /* color: red; */
+    /* background-color: red; */
+    user-select: none;
+}
+
+label::after{
+    content: '*';
+    color: red;
+}
+
+label::before{
+    content: '*';
+    color: red;
+}
+
+
+input[type='checkbox']{
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+}
+
+input[type='checkbox']:checked{
+    /* background-color: red; */
+    background-image: url('https://cdn-icons-png.flaticon.com/512/33/33281.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+select{
+    /* appearance: none; */
+}
